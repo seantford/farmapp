@@ -8,7 +8,7 @@
 $("#my-garden-btn").click(function() {
 
 	//remove special formatting from all nav elements again when each button is clicked
-	$(".nav-bar li a").removeClass('selected');
+	$(".nav-bar li").removeClass('selected');
 
 	//add special formatting for this nav element
 	$(this).addClass('selected');
@@ -26,7 +26,7 @@ $("#my-garden-btn").click(function() {
 $("#my-store-btn").click(function() {
 
 	//remove special formatting from all nav elements again when each button is clicked
-	$(".nav-bar li a").removeClass('selected');
+	$(".nav-bar li").removeClass('selected');
 
 	//add special formatting for this nav element
 	$(this).addClass('selected');
@@ -44,7 +44,7 @@ $("#my-store-btn").click(function() {
 $("#inventory-btn").click(function() {
 
 	//remove special formatting from all nav elements again when each button is clicked
-	$(".nav-bar li a").removeClass('selected');
+	$(".nav-bar li").removeClass('selected');
 
 	//add special formatting for this nav element
 	$(this).addClass('selected');
@@ -61,7 +61,7 @@ $("#inventory-btn").click(function() {
 $("#get-seeds-btn").click(function() {
 
 	//remove special formatting from all nav elements again when each button is clicked
-	$(".nav-bar li a").removeClass('selected');
+	$(".nav-bar li").removeClass('selected');
 
 	//add special formatting for this nav element
 	$(this).addClass('selected');
@@ -77,7 +77,7 @@ $("#get-seeds-btn").click(function() {
 $("#get-supplies-btn").click(function() {
 
 	//remove special formatting from all nav elements again when each button is clicked
-	$(".nav-bar li a").removeClass('selected');
+	$(".nav-bar li").removeClass('selected');
 
 	//add special formatting for this nav element
 	$(this).addClass('selected');
