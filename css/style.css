@@ -19,82 +19,58 @@ ul {
 	padding-left: 0;
 }
 
-/* LOGO */
 
-.logo {
-	display: none;
-	font-size: 1em;
-	color: #fff;
-	font-weight: normal;
-	text-shadow: 5px 5px 7.5px #000;
-	margin-top: .43em;
-	margin-bottom: .43em;
-	border: 1px solid yellow;
+.main-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+
 }
- /*
 
 
 
 /*NAV BAR*/
 .nav-bar {
 	display: flex;
+	box-sizing: border-box;
+	width: 100%;
 	list-style: none;
-	margin: auto;
+	margin: 0px;
 	padding-left: 0;
-	background-color: red;
+	background-color: darkgreen;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-items: center;
-	/*border: 1px solid yellow;*/
+	border: 1px solid black;
+	min-height: 4em;
+	font-size: .5em;
 }
 
 .nav-bar li {
-	margin: 0px;
-	text-shadow: 2px 2px 2px #000,
-				 0px 0px 7.5px #000;
-	border-left: 1px solid black;
+	box-sizing: border-box;
+	box-shadow: 1px 1px 2px black;
+	/*border: 2px solid black;*/
+	border-radius: 100%;
+	width: 3em;
+	height: 3em;
 }
 
-.nav-bar li a {
-	/*padding: 7px;*/
-	/*border: 1px solid yellow;*/
-}
 
 .selected {
-	/*font-size: 1.5em;*/
+	box-shadow: 1px 1px 4px #000;
 	background-color: green;
-	font-style: bold;
-	color: #fff;
-	transition: background 0.5s;
+	transition: text 0.5s background 0.5s;
 }
-
-/* TAB-SPECIFIC CONTENT */
-
-.my-gargen-page,
-.my-store-page,
-.inventory-page,
-.get-seeds-page,
-.get-supplies {
-	display: none;
-	margin-top: 3.14em;
-	margin-bottom: 3.14em;
-	color: #fff;
-	border: 1px solid yellow;
-}
-
-
-
-/* STORE */
 
 .page-content-container ul {
 	display: flex;
 	flex-direction: row;
+	background-color: lightgrey;
 	width: 85%;
 	margin: 0px auto 0px;
 	border: 1px solid yellow;
 }
-
-
 
 
 /*FOOTER*/
@@ -102,10 +78,12 @@ footer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	background-color: red;
+	background-color: darkgreen;
 	font-size: 1em;
+	height: 2em;
+	width: 2em;
 	margin: 0px auto 0px;
-	/*border: 1px solid red;*/
+	border: 1px solid red;
 }
 /*
 footer * {
