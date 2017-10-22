@@ -2,11 +2,13 @@
 
 body {
 	font-family: 'Cutive Mono', monospace;
-	color: #aaa;
+	color: white;
 	text-align: center;
-	background-color: #204060;
+	/*background-color: #204060;*/
+	background-color: black;
+	margin: 0px;
 }
-/* add in a cinematic sort of gradient for whole page*/
+
 a {
 	color: inherit;
 	text-decoration: none;
@@ -19,95 +21,93 @@ ul {
 
 /* LOGO */
 
-.bays-logo {
-	font-size: 5em;
+.logo {
+	display: none;
+	font-size: 1em;
 	color: #fff;
 	font-weight: normal;
 	text-shadow: 5px 5px 7.5px #000;
 	margin-top: .43em;
 	margin-bottom: .43em;
+	border: 1px solid yellow;
 }
- 
+ /*
+
+
 
 /*NAV BAR*/
 .nav-bar {
 	display: flex;
-	/*list-style: none;*/
+	list-style: none;
 	margin: auto;
 	padding-left: 0;
-	/*border: 1px solid red;*/
-	flex-direction: column;
+	background-color: red;
+	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-
+	/*border: 1px solid yellow;*/
 }
 
 .nav-bar li {
-	/*border: 1px solid red;*/
-	margin: .5em;
+	margin: 0px;
 	text-shadow: 2px 2px 2px #000,
 				 0px 0px 7.5px #000;
+	border-left: 1px solid black;
 }
 
 .nav-bar li a {
-	padding: 7px;
+	/*padding: 7px;*/
+	/*border: 1px solid yellow;*/
 }
 
 .selected {
-	font-size: 1.5em;
+	/*font-size: 1.5em;*/
+	background-color: green;
 	font-style: bold;
 	color: #fff;
-	transition: font 1s, color 1s;
+	transition: background 0.5s;
 }
 
 /* TAB-SPECIFIC CONTENT */
-.store,
-.news,
-.contact {
+
+.my-gargen-page,
+.my-store-page,
+.inventory-page,
+.get-seeds-page,
+.get-supplies {
 	display: none;
 	margin-top: 3.14em;
 	margin-bottom: 3.14em;
 	color: #fff;
+	border: 1px solid yellow;
 }
+
+
 
 /* STORE */
 
-.store ul {
+.page-content-container ul {
 	display: flex;
-	flex-direction: column;
-	width: 66%;
+	flex-direction: row;
+	width: 85%;
 	margin: 0px auto 0px;
+	border: 1px solid yellow;
 }
 
-.store ul li {
-	margin-bottom: 1.3em;
-	/*border: 1px dotted red;*/
-}
 
-.store ul li:first-child h3 {
-	margin-top: 0px;
-}
 
-/* AUDIO PLAYER */
-
-.audio-container li {
-	margin-top: 3.14em;
-	margin-bottom: 2em;
-}
-
-.song-title {
-	margin-bottom: .33em;
-	color: #fff;
-	text-shadow: 2px 2px 7.5px #000;
-}
 
 /*FOOTER*/
 footer {
-	font-size: .65em;
-	margin-top: 3.14em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: red;
+	font-size: 1em;
+	margin: 0px auto 0px;
 	/*border: 1px solid red;*/
 }
-
+/*
 footer * {
-	/*border: 1px solid red;*/
-}
+	border: 1px solid white;
+}*/
