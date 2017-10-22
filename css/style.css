@@ -1,0 +1,113 @@
+/* MOBILE FIRST */
+
+body {
+	font-family: 'Cutive Mono', monospace;
+	color: #aaa;
+	text-align: center;
+	background-color: #204060;
+}
+/* add in a cinematic sort of gradient for whole page*/
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+/* LOGO */
+
+.bays-logo {
+	font-size: 5em;
+	color: #fff;
+	font-weight: normal;
+	text-shadow: 5px 5px 7.5px #000;
+	margin-top: .43em;
+	margin-bottom: .43em;
+}
+ 
+
+/*NAV BAR*/
+.nav-bar {
+	display: flex;
+	/*list-style: none;*/
+	margin: auto;
+	padding-left: 0;
+	/*border: 1px solid red;*/
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.nav-bar li {
+	/*border: 1px solid red;*/
+	margin: .5em;
+	text-shadow: 2px 2px 2px #000,
+				 0px 0px 7.5px #000;
+}
+
+.nav-bar li a {
+	padding: 7px;
+}
+
+.selected {
+	font-size: 1.5em;
+	font-style: bold;
+	color: #fff;
+	transition: font 1s, color 1s;
+}
+
+/* TAB-SPECIFIC CONTENT */
+.store,
+.news,
+.contact {
+	display: none;
+	margin-top: 3.14em;
+	margin-bottom: 3.14em;
+	color: #fff;
+}
+
+/* STORE */
+
+.store ul {
+	display: flex;
+	flex-direction: column;
+	width: 66%;
+	margin: 0px auto 0px;
+}
+
+.store ul li {
+	margin-bottom: 1.3em;
+	/*border: 1px dotted red;*/
+}
+
+.store ul li:first-child h3 {
+	margin-top: 0px;
+}
+
+/* AUDIO PLAYER */
+
+.audio-container li {
+	margin-top: 3.14em;
+	margin-bottom: 2em;
+}
+
+.song-title {
+	margin-bottom: .33em;
+	color: #fff;
+	text-shadow: 2px 2px 7.5px #000;
+}
+
+/*FOOTER*/
+footer {
+	font-size: .65em;
+	margin-top: 3.14em;
+	/*border: 1px solid red;*/
+}
+
+footer * {
+	/*border: 1px solid red;*/
+}
